@@ -18,33 +18,33 @@ import io.qameta.allure.Step;
 
 public class Take_Screenshot {
 
-	// Take a screenshot for full view port
-	public void screenshot(String name) throws IOException {
-		String strtime = setdate();
-		File scFile = ((TakesScreenshot) PageDriver.getCurrentDriver()).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scFile, new File("./image/" + strtime + "_" + name + ".png"));
-	}
+    // Take a screenshot for full view port
+    public void screenshot(String name) throws IOException {
+        String strtime = setdate();
+        File scFile = ((TakesScreenshot) PageDriver.getCurrentDriver()).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scFile, new File("./image/" + strtime + "_" + name + ".png"));
+    }
 
-	// Take a screenshot for specific element
-	public void screenshot(String name, WebElement element) throws IOException {
-		String strtime = setdate();
-		File scFile = element.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scFile, new File("./image/" + strtime + name + ".png"));
-	}
+    // Take a screenshot for specific element
+    public void screenshot(String name, WebElement element) throws IOException {
+        String strtime = setdate();
+        File scFile = element.getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scFile, new File("./image/" + strtime + name + ".png"));
+    }
 
-	// Take a screenshot for full view port and attest to allure report
-	@Step("Taking a screenshot for {0}")
-	public static void takeScreenShot(String name) {
-		Allure.addAttachment(name, new ByteArrayInputStream(
-				((TakesScreenshot) PageDriver.getCurrentDriver()).getScreenshotAs(OutputType.BYTES)));
-	}
+    // Take a screenshot for full view port and attest to allure report
+    @Step("Taking a screenshot for {0}")
+    public static void takeScreenShot(String name) {
+        Allure.addAttachment(name, new ByteArrayInputStream(
+                ((TakesScreenshot) PageDriver.getCurrentDriver()).getScreenshotAs(OutputType.BYTES)));
+    }
 
-	// Convert current data time to string
-	public String setdate() {
-		Date date = Calendar.getInstance().getTime();
-		SimpleDateFormat formatter = new SimpleDateFormat("yyyymmdd_HHmmss");
-		String strdate = formatter.format(date);
-		return strdate;
-	}
+    // Convert current data time to string
+    public String setdate() {
+        Date date = Calendar.getInstance().getTime();
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd_HHmmss");
+        String strdate = formatter.format(date);
+        return strdate;
+    }
 
 }
