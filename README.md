@@ -1,7 +1,7 @@
 # Automation-Practice
 Sample (automationpractice.com) website automation project with selenium java
 
-## This project cover following scenario:
+## This project covers the following scenario:
 
 1. Go to the URl: http://automationpractice.com/index.php
 2. Create two new accounts
@@ -13,12 +13,13 @@ Sample (automationpractice.com) website automation project with selenium java
 
 **Run the above cycle for another user.**
 
-## This project cover following topic:
+## This project covers the following topics:
 
 1. Java
-2. Selenium
-3. TestNG
-4. Maven
+2. Maven
+3. Selenium
+4. TestNG
 5. Page Object Model
 6. Data-Driven
 7. Page Factory
+8. Allure Report
