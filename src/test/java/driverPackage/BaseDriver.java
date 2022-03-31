@@ -38,12 +38,12 @@ public class BaseDriver {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         PageDriver.getInstance().setDriver(driver);
+
     }
 
     @AfterSuite
     public void tearDown() {
         PageDriver.getCurrentDriver().quit();
-
     }
 
 }
