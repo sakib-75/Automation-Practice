@@ -72,11 +72,6 @@ public class CommonMethods {
         context.findElement(element).click();
     }
 
-    /******************************************
-     * Handle Select Tag Related Element Task *
-     * ****************************************
-     */
-
     /*********************************************
      * Handle Select Tag Related Element Task    *
      * @param element locator of Select tag      *
@@ -115,7 +110,7 @@ public class CommonMethods {
         elements.get(position - 1).click();
     }
 
-    // Perform click action on a element where visible Text match from an elements list
+    // Perform click action on an element where visible Text match from an elements list
     public void listitem(List<WebElement> elements, String visibleText) {
         for (WebElement element : elements) {
             if (element.getText().equals(visibleText)) {
@@ -155,7 +150,7 @@ public class CommonMethods {
     /*********************************************
      * Scroll Within an element
      * @param cssLocator is the target element's cssLocator/query selector *
-     * @param offsetX is the scroll position relative to x axis
+     * @param offsetX is the scroll position relative to x-axis
      * @param offsetY is the scroll position relative to Y axis
      * *******************************************
      */
@@ -207,8 +202,12 @@ public class CommonMethods {
      */
     public void waitForPageLoad() {
         wait = new WebDriverWait(PageDriver.getCurrentDriver(), Duration.ofSeconds(30));
-        wait.until((ExpectedCondition<Boolean>) wd -> ((JavascriptExecutor) wd)
-                .executeScript("return document.readyState;").equals("complete"));
+        wait.until((ExpectedCondition<Boolean>) wd -> {
+            assert wd != null;
+            return ((JavascriptExecutor) wd)
+                    .executeScript("return document.readyState;")
+                    .equals("complete");
+        });
     }
 
     /*****************************
@@ -216,20 +215,20 @@ public class CommonMethods {
      * ***************************
      */
 
-    // Accept alert whenever it present
+    // Accept alert whenever it presents
     public void alertAccept() {
         Alert alert = waitForAlert();
         alert.accept();
     }
 
-    // Accept alert with giving text whenever it present
+    // Accept alert with giving text whenever it presents
     public void allertAccept(String value) {
         Alert alert = waitForAlert();
         alert.sendKeys(value);
         alert.accept();
     }
 
-    // Decline alert whenever it present
+    // Decline alert whenever it presents
     public void alertDismiss() {
         Alert alert = waitForAlert();
         alert.dismiss();
