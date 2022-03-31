@@ -16,9 +16,10 @@ Sample (automationpractice.com) website automation project with selenium java
 ## This project covers the following topics:
 
 1. Java
-2. Selenium
-3. TestNG
-4. Maven
+2. Maven
+3. Selenium
+4. TestNG
 5. Page Object Model
 6. Data-Driven
 7. Page Factory
+8. Allure Report
