@@ -4,10 +4,10 @@ import org.testng.annotations.DataProvider;
 
 public class DataSet {
 
+    // currently, Data set contain only for two user, but You can add as many as you want
+    // need to update email only for every run for every user
     @DataProvider(name = "registrationData")
     public static Object[][] dataset() {
-        // currently, Data set contain only for two user, but You can add as many as you want
-        // need to update email only for every run for every user
         Object[][] obj = {
                 {"johnKanir105@gmalla.com", "John", "Kanir", "testpass123@", "12", "7", "2000", "AdventureSports",
                         "87 Nickel Road", "2661 Kennedy Court", "Kentucky", "6", "41002", "21",
