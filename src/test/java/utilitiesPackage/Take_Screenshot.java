@@ -35,8 +35,7 @@ public class Take_Screenshot {
     // Take a screenshot for full view port and attest to allure report
     @Step("Taking a screenshot for {0}")
     public static void takeScreenShot(String name) {
-        Allure.addAttachment(name,
-                new ByteArrayInputStream(((TakesScreenshot) PageDriver.getCurrentDriver())
+        Allure.addAttachment(name, new ByteArrayInputStream(((TakesScreenshot) PageDriver.getCurrentDriver())
                 .getScreenshotAs(OutputType.BYTES))
         );
     }
