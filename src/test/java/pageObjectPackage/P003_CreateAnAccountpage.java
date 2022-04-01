@@ -103,7 +103,7 @@ public class P003_CreateAnAccountpage extends CommonMethods {
         newsletter.click();
         offer.click();
         // Taking a screenshot for reporting purpose
-        Take_Screenshot.takeScreenShot("Personal Information");
+        Take_Screenshot.screenshotForAllure("Personal Information");
     }
 
     @Step("Provide New User Address Information")
@@ -123,7 +123,7 @@ public class P003_CreateAnAccountpage extends CommonMethods {
         sendText(mobilePhoneField, mobilephone);
         sendText(aliasfield, alias);
         // Taking a screenshot for reporting purpose
-        Take_Screenshot.takeScreenShot("Address Information");
+        Take_Screenshot.screenshotForAllure("Address Information");
 
     }
 

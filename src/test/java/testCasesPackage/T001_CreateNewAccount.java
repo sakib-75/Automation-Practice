@@ -62,7 +62,7 @@ public class T001_CreateNewAccount extends BaseDriver {
         softAssert.assertEquals(myAccountpage.userName.getText(), fullName);
 
         // Taking a screenshot for reporting purpose
-        Take_Screenshot.takeScreenShot("Created Account");
+        Take_Screenshot.screenshotForAllure("Created Account");
 
         // Click on Sign Out for Sign out
         myAccountpage.clickSignOutButton();

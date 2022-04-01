@@ -44,7 +44,7 @@ public class T002_Login_And_Purchase extends BaseDriver {
         signInpage.loginwithEmailPassword(email, password);
 
         // Taking a screenshot for reporting purpose
-        Take_Screenshot.takeScreenShot("After Log In -My Account Page");
+        Take_Screenshot.screenshotForAllure("After Log In -My Account Page");
 
         // Click Casual Dresses from Menu bar by hover on Dresses
         homepage.hoverAndClickCasualDresses();
@@ -83,7 +83,7 @@ public class T002_Login_And_Purchase extends BaseDriver {
         softAssert.assertEquals(checkoutpage.getTitle(), checkoutpage.checkoutpageTitle);
 
         // Taking a screenshot for reporting purpose
-        Take_Screenshot.takeScreenShot("Cart Details");
+        Take_Screenshot.screenshotForAllure("Cart Details");
 
         // Click Order/Checkout summary page 'Proceed To Checkout' button
         checkoutpage.clickSummaryProceedToCheckout();
