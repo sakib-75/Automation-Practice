@@ -37,7 +37,8 @@ public class Take_Screenshot {
     public static void takeScreenShot(String name) {
         Allure.addAttachment(name,
                 new ByteArrayInputStream(((TakesScreenshot) PageDriver.getCurrentDriver())
-                .getScreenshotAs(OutputType.BYTES)));
+                .getScreenshotAs(OutputType.BYTES))
+        );
     }
 
     // Convert current data time to string
