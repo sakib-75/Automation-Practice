@@ -22,6 +22,7 @@ public class T002_Login_And_Purchase extends BaseDriver {
             + "Then add two different category products to the cart and complete the checkout process with payment. "
             + "Finally, It will Sign out from the system.")
     public void loginAndPurchase(String email, String password, String comment) {
+
         P001_Homepage homepage = new P001_Homepage();
         P002_SignInpage signInpage = new P002_SignInpage();
         P004_MyAccountpage myAccountpage = new P004_MyAccountpage();
@@ -103,6 +104,7 @@ public class T002_Login_And_Purchase extends BaseDriver {
         myAccountpage.clickSignOutButton();
 
         softAssert.assertAll();
+
     }
 
 }

@@ -18,10 +18,10 @@ public class T001_CreateNewAccount extends BaseDriver {
     @Description("Test Description: This test will go to automationpractice.com and "
             + "browse to the registration page. Then complete the registration process "
             + "by providing new user Personal and address information. " + "Finally, sign out from the system.")
-    public void registration(String email, String firstname, String lastname, String password, String day, String month,
-                             String year, String companyName, String addressone, String Addresstwo, String city, String statename,
-                             String zipCode, String countryname, String addiAddress, String homephone, String mobilephone, String alias)
-            throws InterruptedException {
+    public void registration(String email, String firstname, String lastname, String password,
+                             String day, String month, String year, String companyName, String addressone,
+                             String Addresstwo, String city, String statename, String zipCode, String countryname,
+                             String addiAddress, String homephone, String mobilephone, String alias) {
 
         P001_Homepage homepage = new P001_Homepage();
         P002_SignInpage signInpage = new P002_SignInpage();
@@ -68,6 +68,7 @@ public class T001_CreateNewAccount extends BaseDriver {
         myAccountpage.clickSignOutButton();
 
         softAssert.assertAll();
+
     }
 
 }
