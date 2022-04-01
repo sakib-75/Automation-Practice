@@ -47,4 +47,5 @@ public class P002_SignInpage extends CommonMethods {
 		signInButton.click();
 
 	}
+
 }

@@ -25,4 +25,5 @@ public class P004_MyAccountpage extends CommonMethods {
 		signOutButton.click();
 
 	}
+
 }

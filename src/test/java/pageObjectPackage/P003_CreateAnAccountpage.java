@@ -91,8 +91,8 @@ public class P003_CreateAnAccountpage extends CommonMethods {
 
 
     @Step("Provide New User Personal Information")
-    public void fillPersonalInformation(String fisrtname, String lastname, String password, String day, String month,
-                                        String year) {
+    public void fillPersonalInformation(String fisrtname, String lastname, String password,
+                                        String day, String month, String year) {
         mrTitle.click();
         sendText(firstName, fisrtname);
         sendText(lastName, lastname);
@@ -107,9 +107,10 @@ public class P003_CreateAnAccountpage extends CommonMethods {
     }
 
     @Step("Provide New User Address Information")
-    public void fillYourAddress(String companyName, String addressone, String addresstwo, String city, String statename,
-                                String zipCode, String countryname, String addiAddress, String homephone, String mobilephone,
-                                String alias) {
+    public void fillYourAddress(String companyName, String addressone, String addresstwo,
+                                String city, String statename, String zipCode, String countryname,
+                                String addiAddress, String homephone, String mobilephone, String alias) {
+
         sendText(companyNameField, companyName);
         sendText(yourAddressOneField, addressone);
         sendText(yourAddressTwoField, addresstwo);
