@@ -34,9 +34,9 @@ public class BaseDriver {
             driver = new EdgeDriver();
         }
 
-        driver.get("http://automationpractice.com/index.php");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.get("http://automationpractice.com/index.php");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         PageDriver.getInstance().setDriver(driver);
 
     }
