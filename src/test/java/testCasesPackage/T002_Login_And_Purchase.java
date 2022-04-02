@@ -17,7 +17,7 @@ import utilitiesPackage.Take_Screenshot;
 
 public class T002_Login_And_Purchase extends BaseDriver {
 
-    @Test(description = "Perform Login, Purchase, and Logout", dataProvider = "userInfo", dataProviderClass = DataSet.class)
+    @Test(description = "Perform Login, Purchase, and Logout", dataProvider = "loginInfo", dataProviderClass = DataSet.class)
     @Description("Test Description: This test will log-in to automationpractice.com, "
             + "Then add two different category products to the cart and complete the checkout process with payment. "
             + "Finally, It will Sign out from the system.")

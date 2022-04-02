@@ -14,7 +14,7 @@ import utilitiesPackage.Take_Screenshot;
 
 public class T001_CreateNewAccount extends BaseDriver {
 
-    @Test(description = "Perform registration process for new users and Sign Out", dataProvider = "registrationData", dataProviderClass = DataSet.class)
+    @Test(description = "Perform registration process for new users and Sign Out", dataProvider = "registrationInfo", dataProviderClass = DataSet.class)
     @Description("Test Description: This test will go to automationpractice.com and "
             + "browse to the registration page. Then complete the registration process "
             + "by providing new user Personal and address information. " + "Finally, sign out from the system.")
