@@ -1,0 +1,89 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "C:/Users/LENOVO/IdeaProjects/AutomationPractice",
+      "children" : [ {
+        "name" : "testCasesPackage.T001_CreateNewAccount",
+        "children" : [ {
+          "name" : "Perform registration process for new users and Sign Out",
+          "uid" : "9bba6e05e394c29a",
+          "parentUid" : "36f8a6d2a603edc75cc8b8c403fc38b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650096536429,
+            "stop" : 1650096548627,
+            "duration" : 12198
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "johnKanir3437@gmalla.com", "John", "Kentucky", "6", "41002", "21", "Take first left after Jr. school", "774-280-5944", "606-402-2834", " My address", "Kanir", "testpass123@", "12", "7", "2000", "AdventureSports", "87 Nickel Road", "2661 Kennedy Court" ]
+        }, {
+          "name" : "Perform registration process for new users and Sign Out",
+          "uid" : "f22b1ef6fcad179",
+          "parentUid" : "36f8a6d2a603edc75cc8b8c403fc38b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650096548709,
+            "stop" : 1650096559162,
+            "duration" : 10453
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "jacyjane2975@dffda.com", "Jacy", "Indiana", "12", "55555", "21", "Take first Right after KFC", "317-529-7499", "317-425-8779", " My address", "Jane", "@testpass123", "28", "5", "1990", "Market Basket", "2358 Barfield Lane", "Indianapolis" ]
+        } ],
+        "uid" : "36f8a6d2a603edc75cc8b8c403fc38b5"
+      }, {
+        "name" : "testCasesPackage.T002_Login_And_Purchase",
+        "children" : [ {
+          "name" : "Perform Login, Purchase, and Logout",
+          "uid" : "7dba7b7ec130b34b",
+          "parentUid" : "1dbee5f9fc387e57a9c8f1acc59436d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650096559169,
+            "stop" : 1650096588681,
+            "duration" : 29512
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "johnKanir105@gmalla.com", "testpass123@", "Call before knock the door" ]
+        }, {
+          "name" : "Perform Login, Purchase, and Logout",
+          "uid" : "dad050c89325c0fb",
+          "parentUid" : "1dbee5f9fc387e57a9c8f1acc59436d3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650096588684,
+            "stop" : 1650096612961,
+            "duration" : 24277
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "jacyjane105@dffda.com", "@testpass123", "Be aware about dog" ]
+        } ],
+        "uid" : "1dbee5f9fc387e57a9c8f1acc59436d3"
+      } ],
+      "uid" : "31663829bdfb2f77d70dbc63b9326d27"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}

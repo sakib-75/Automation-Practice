@@ -1,0 +1,426 @@
+{
+  "uid" : "7dba7b7ec130b34b",
+  "name" : "Perform Login, Purchase, and Logout",
+  "fullName" : "testCasesPackage.T002_Login_And_Purchase.loginAndPurchase",
+  "historyId" : "1aeb45e6f5f541da982690eadbb8fff8",
+  "time" : {
+    "start" : 1650096559169,
+    "stop" : 1650096588681,
+    "duration" : 29512
+  },
+  "description" : "Test Description: This test will log-in to automationpractice.com, Then add two different category products to the cart and complete the checkout process with payment. Finally, It will Sign out from the system.",
+  "descriptionHtml" : "<p>Test Description: This test will log-in to automationpractice.com, Then add two different category products to the cart and complete the checkout process with payment. Finally, It will Sign out from the system.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1650096524859,
+      "stop" : 1650096536334,
+      "duration" : 11475
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: This test will log-in to automationpractice.com, Then add two different category products to the cart and complete the checkout process with payment. Finally, It will Sign out from the system.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on Sign In Button",
+      "time" : {
+        "start" : 1650096559184,
+        "stop" : 1650096560813,
+        "duration" : 1629
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Provide an Email & Password and click on Sign In button",
+      "time" : {
+        "start" : 1650096560822,
+        "stop" : 1650096562968,
+        "duration" : 2146
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Taking a screenshot for Log In Information",
+        "time" : {
+          "start" : 1650096561002,
+          "stop" : 1650096561271,
+          "duration" : 269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "96dfde87ce34eecd",
+          "name" : "Log In Information",
+          "source" : "96dfde87ce34eecd.png",
+          "type" : "image/png",
+          "size" : 119484
+        } ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "Log In Information"
+        } ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "johnKanir105@gmalla.com"
+      }, {
+        "name" : "password",
+        "value" : "testpass123@"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Taking a screenshot for After Log In -My Account Page",
+      "time" : {
+        "start" : 1650096562968,
+        "stop" : 1650096563176,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c30503e89c6a9ed",
+        "name" : "After Log In -My Account Page",
+        "source" : "3c30503e89c6a9ed.png",
+        "type" : "image/png",
+        "size" : 121559
+      } ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "After Log In -My Account Page"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Hover on Dresses Button and Click on Casual Dresses Button",
+      "time" : {
+        "start" : 1650096563176,
+        "stop" : 1650096566301,
+        "duration" : 3125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Scroll to Product then Hover on Product and Click on add To Cart Button Button",
+      "time" : {
+        "start" : 1650096566309,
+        "stop" : 1650096566517,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on continue Shopping Button From Cart details window",
+      "time" : {
+        "start" : 1650096566517,
+        "stop" : 1650096567704,
+        "duration" : 1187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on T-Shirts Button",
+      "time" : {
+        "start" : 1650096567704,
+        "stop" : 1650096571066,
+        "duration" : 3362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Filter Blue Color from CATALOG-Color section",
+      "time" : {
+        "start" : 1650096571074,
+        "stop" : 1650096571123,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Scroll to Product then Hover on Product and Click on add To Cart Button Button",
+      "time" : {
+        "start" : 1650096571123,
+        "stop" : 1650096571330,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on Proceed To Checkout Button From Cart details window",
+      "time" : {
+        "start" : 1650096571331,
+        "stop" : 1650096576485,
+        "duration" : 5154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Taking a screenshot for Cart Details",
+      "time" : {
+        "start" : 1650096576501,
+        "stop" : 1650096576720,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c785f74e95ffb693",
+        "name" : "Cart Details",
+        "source" : "c785f74e95ffb693.png",
+        "type" : "image/png",
+        "size" : 143106
+      } ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Cart Details"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Review Cart Summary and click on Proceed To Checkout button",
+      "time" : {
+        "start" : 1650096576720,
+        "stop" : 1650096578549,
+        "duration" : 1829
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Review Address and write Additional Information then click on Proceed To Checkout button",
+      "time" : {
+        "start" : 1650096578550,
+        "stop" : 1650096580061,
+        "duration" : 1511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "comment",
+        "value" : "Call before knock the door"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Review Shipping details and checked Terms of service then click on Proceed To Checkout button",
+      "time" : {
+        "start" : 1650096580061,
+        "stop" : 1650096581567,
+        "duration" : 1506
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Scroll to Payment option and click on Pay By check",
+      "time" : {
+        "start" : 1650096581567,
+        "stop" : 1650096583038,
+        "duration" : 1471
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on confirm My Order Button to complete the checkout process",
+      "time" : {
+        "start" : 1650096583038,
+        "stop" : 1650096585593,
+        "duration" : 2555
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on Sign Out Button",
+      "time" : {
+        "start" : 1650096585593,
+        "stop" : 1650096588681,
+        "duration" : 3088
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 18
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1650096612974,
+      "stop" : 1650096614106,
+      "duration" : 1132
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCasesPackage.T002_Login_And_Purchase"
+  }, {
+    "name" : "testClass",
+    "value" : "testCasesPackage.T002_Login_And_Purchase"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginAndPurchase"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "C:/Users/LENOVO/IdeaProjects/AutomationPractice"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCasesPackage.T002_Login_And_Purchase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A5NETF3"
+  }, {
+    "name" : "thread",
+    "value" : "5760@DESKTOP-A5NETF3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "johnKanir105@gmalla.com"
+  }, {
+    "name" : "arg1",
+    "value" : "testpass123@"
+  }, {
+    "name" : "arg2",
+    "value" : "Call before knock the door"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7dba7b7ec130b34b.json",
+  "parameterValues" : [ "johnKanir105@gmalla.com", "testpass123@", "Call before knock the door" ]
+}
