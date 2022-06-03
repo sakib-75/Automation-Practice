@@ -1,6 +1,8 @@
 # Automation-Practice
 Sample (automationpractice.com) website automation project with selenium java
 
+### [Click here to see Allure Report](https://automation-project-report.netlify.app/)
+
 ## This project covers the following scenario:
 
 1. Go to the URl: http://automationpractice.com/index.php
